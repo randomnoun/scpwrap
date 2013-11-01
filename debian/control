@@ -2,7 +2,7 @@ Source: scpwrap
 Section: net
 Priority: optional
 Maintainer: Greg Knox <knoxg@randomnoun.com>
-Vcs-Cvs: pserver:anonymous@cvs.randomnoun.com:/randomnoun scpwrap 
+Vcs-Cvs: :pserver:anonymous@cvs.randomnoun.com:/randomnoun scpwrap 
 Vcs-Browser: http://cvs.randomnoun.com/cvsweb/cvsweb.cgi/scpwrap
 Homepage: http://www.randomnoun.com/wp/2013/10/31/progress-bars/
 Standards-Version: 3.9.3
