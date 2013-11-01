@@ -1,0 +1,35 @@
+Source: scpwrap
+Section: net
+Priority: optional
+Maintainer: Greg Knox <knoxg@randomnoun.com>
+Vcs-Cvs: pserver:anonymous@cvs.randomnoun.com:/randomnoun:scpwrap 
+Vcs-Browser: http://cvs.randomnoun.com/cvsweb/cvsweb.cgi/scpwrap
+Homepage: http://www.randomnoun.com/wp/2013/10/31/progress-bars/
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 8)
+
+Package: scpwrap
+# Version: 1.0; now sourced from changelog
+# Pre-Depends: <comma-separated list of packages>
+Depends: openssh-client, ${shlibs:Depends}, ${misc:Depends}
+# Recommends: <comma-separated list of packages>
+# Suggests: <comma-separated list of packages>
+# Provides: <comma-separated list of packages>
+# Replaces: <comma-separated list of packages>
+Architecture: any
+# Copyright: BSD Simplified
+# Changelog: <changelog file; defaults to a generic changelog>
+# Readme: <README.Debian file; defaults to a generic one>
+# Extra-Files: <comma-separated list of additional files for the doc directory>
+# Files: <pair of space-separated paths; First is file to include, second is destination>
+#  <more pairs, if there's more than one file to include. Notice the starting space>
+Description: converts the output of scp into machine-readable format 
+ scpwrap wraps the scp command such that the output generated
+ by that command is converted into a format more easily processed 
+ by other commands.
+ .
+ scp(1) progress information is captured and converted into a 
+ machine-readable format for use in more sophisticated user 
+ interfaces (which in turn would require even more effort to turn 
+ back into a machine-readable format). And so the circle of life
+ continues.
