@@ -5,7 +5,7 @@ Maintainer: Greg Knox <knoxg@randomnoun.com>
 Vcs-Cvs: pserver:anonymous@cvs.randomnoun.com:/randomnoun scpwrap 
 Vcs-Browser: http://cvs.randomnoun.com/cvsweb/cvsweb.cgi/scpwrap
 Homepage: http://www.randomnoun.com/wp/2013/10/31/progress-bars/
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 8)
 
 Package: scpwrap
